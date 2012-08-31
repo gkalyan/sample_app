@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'pg', '0.12.2'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -24,8 +25,4 @@ group :test do
   gem 'libnotify', '0.5.9'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '0.9.0'
-end
-
-group :production do
-  gem 'pg', '0.12.2'
 end
